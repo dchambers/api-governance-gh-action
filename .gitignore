@@ -1,2 +1,19 @@
-package-lock.json
-node_modules
+# Build Artifacts
+node_modules/
+# *.tsbuildinfo
+
+# Yarn - https://yarnpkg.com/advanced/qa#which-files-should-be-gitignored
+.yarn/*
+!.yarn/cache
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# IDE
+/.vscode/settings.json
+.idea/
+*.iml
+
+# Mac
+.DS_Store

@@ -2,6 +2,6 @@ FROM node:slim
 
 COPY . .
 
-RUN npm install --production
+RUN yarn install --immutable --immutable-cache
 
-ENTRYPOINT ["node", "/lib/main.js"]
+ENTRYPOINT ["node", "/dist/index.js"]

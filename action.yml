@@ -1,6 +1,6 @@
-name: 'Container Action Template'
-description: 'Get started with Container actions'
-author: 'GitHub'
+name: 'API Governance Verification'
+description: 'Perform API governance directly within the subgraph repo.'
+author: 'Babylon'
 inputs: 
   myInput:
     description: 'Input to use'
